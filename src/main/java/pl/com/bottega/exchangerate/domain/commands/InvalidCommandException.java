@@ -1,6 +1,5 @@
 package pl.com.bottega.exchangerate.domain.commands;
 
-
 public class InvalidCommandException extends RuntimeException {
 
 	private Validatable.ValidationErrors errors;
